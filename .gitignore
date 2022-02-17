@@ -1,5 +1,9 @@
-.sass-cache/*
+!.gitignore
 .sass-cache/
+.sass-cache/*
 *.map
 thirdparty/*
-.vscode/*
+images/*
+*.png
+*.jpeg
+*.jpg
