@@ -1,0 +1,25 @@
+$up-maroon: #780116ff;
+$maximum-yellow-red: #f7b538ff;
+$ochre: #db7c26ff;
+$flame: #d8572aff;
+$international-orange-golden-gate-bridge: #c32f27ff;
+
+$orange-pantone: #ff5400ff;
+$selective-yellow: #ffb600ff;
+
+$dark-red: #941b0cff;
+$bright-yellow-crayola: #f6aa1cff;
+
+:root {
+  --up-maroon: #{$up-maroon};
+  --maximum-yellow-red: #{$maximum-yellow-red};
+  --ochre: #{$ochre};
+  --flame: #{$flame};
+  --international-orange-golden-gate-bridge: #{$international-orange-golden-gate-bridge};
+
+  --orange-pantone: #{$orange-pantone};
+  --selective-yellow: #{$selective-yellow};
+
+  --dark-red: #{$dark-red};
+  --bright-yellow-crayola: #{$bright-yellow-crayola};
+}

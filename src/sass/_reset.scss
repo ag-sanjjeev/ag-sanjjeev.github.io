@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  transition: background-color 1s cubic-bezier(1, 0.03, 0.58, 1) 0.2s, 
+              color 1s cubic-bezier(1, 0.03, 0.58, 1) 0.2s,
+              text-shadow 1s cubic-bezier(1, 0.03, 0.58, 1) 0.2s,
+              box-shadow 1s cubic-bezier(1, 0.03, 0.58, 1) 0.2s,
+              border 1s cubic-bezier(1, 0.03, 0.58, 1) 0.2s; 
+}
+
+body:before {
+  content: '';  
+  height: 100px;
+}
