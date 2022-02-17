@@ -120,7 +120,7 @@ class Portfolio {
 		this.services.forEach(function(e, i) {
 			flex_row = (i%2 == 0) ? 'flex-lg-row-reverse' : 'flex-lg-row-forward';
 
-			html +='<div class="row '+flex_row+' align-items-center g-5 py-2 fadeshow">';
+			html +='<div class="row '+flex_row+' align-items-center mt-3 mb-5 py-2 w-100 fadeshow">';
 			html +='<div class="col-10 col-sm-8 col-lg-6">';
 			html +='<img src="'+e.img+'" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">';
 			html +='</div>';
