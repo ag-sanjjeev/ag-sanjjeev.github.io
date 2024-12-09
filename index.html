@@ -7,105 +7,141 @@
 	<title>Portfolio : AG-Sanjjeev</title>
 
 	<!-- Style -->
-
-	<!-- <link rel="stylesheet" type="text/css" href="./thirdparty/fontawesome/css/all.css" media="all" /> -->
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	
 	<link rel="stylesheet" type="text/css" href="./dist/css/style.css" media="all" />
 </head>
 <body>
+<!-- No Script Notice -->
+<noscript>
+	<section class="no-script-notice bg-light-gray">
+		<div class="notice">				
+			<h4 class="content light-red animate__animated animate__flash">Please, Enable!</h4>
+			<h4 class="content-icon-group animate__animated animate__fadeIn animate__delay-1s">
+				<span class="blue">JavaScript</span>
+				<span class="ps-3 switch-icon silver"></span>
+			</h4>		
+		</div>
+	</section>
+</noscript>
 
+	<!-- Main Portfolio -->
 	<main>
-		
-		<section class="glass-panel">
-			
-			<div class="portfolio-container">
-				
-				<div class="header">
-					<img src="https://avatars.githubusercontent.com/u/91313054?v=4" alt="ag-sanjjeev-profile-avatar" />
-					<div class="info">
-						<h3 class="user-name">AG-Sanjjeev</h3>
-						<p class="tiny-description">Web Developer & Designer</p>
-					</div>
-				</div>
-
-				<div class="sidebar">
-					
-					<div class="links">
-						
-						<a href="#" data-message="about" class="link">
-							<i class="fa fa-user-alt"></i>
-							About Me
-						</a>
-
-						<a href="#" data-message="skills" class="link">
-							<i class="fa fa-wrench"></i>
-							Skills
-						</a>
-
-						<a href="#" data-message="projects" class="link">
-							<i class="fa fa-project-diagram"></i>
-							Projects
-						</a>
-
-						<a href="#" data-message="contact" class="link">
-							<i class="fa fa-envelope"></i>
-							Contact
-						</a>
-
-					</div>
-
-					<div class="tiny-footer">
-						<h3>Hire Me. For your next project!</h3>
-						<i class="fa fa-cogs"></i>
-					</div>
-
-				</div>
-
-				<div class="messenger-container">
-					
-					<div class="messages-chatbox">
-
-						<div class="notice-container">
-							<p class="notice-message">Welcome to my portfolio. <br /> Press START to explore.</p>							
-						</div>						
-
-					</div>
-
-					<div class="message-response-loader">
-						<i class="dot-1"></i>
-						<i class="dot-2"></i>
-						<i class="dot-3"></i>
-					</div>
-
-					<div class="message-input-container">
-						
-						<button type="button" class="start-btn active" id="start-btn">start</button>
-
-						<div class="input-group">
-							<form action="#" onsubmit="return chatSend(this);" method="post" id="message-input-form">
-								<input type="text" name="chatInput" class="chat-input" id="chat-input" placeholder="Enter text ..." required />
-								<button type="submit" class="chat-send" id="chat-send">
-									<i class="fa fa-arrow-right"></i>
-								</button>
-							</form>
-						</div>
-
-					</div>
-
-				</div>
-
+		<!-- About -->
+		<section class="about">
+			<div class="icon-container animate__animated" data-animate="animate__jackInTheBox" data-animatedelay="0.5">
+				<img src="./images/profile-image.jpg" alt="ag-sanjjeev" draggable="false">
 			</div>
-		
+			<div class="content">
+				<div class="heading animate__animated" data-animate="animate__zoomInLeft" data-animatedelay="1">
+					<h2 class="user-name">I'm <span class="highlight">Sanjjeev</span></h2>
+				</div>
+				<div class="items-list animate__animated" data-animate="animate__bounceInRight" data-animatedelay="1.5">
+					<p class="item">Full stack web developer</p>					
+				</div>
+			</div>	
 		</section>
-
+		<!-- Skills -->
+		<section class="skills">
+			<div class="icon-container animate__animated" data-animate="animate__jackInTheBox" data-animatedelay="0.5">
+				<i class="fas fa-palette"></i>
+			</div>
+			<div class="content">
+				<div class="heading animate__animated" data-animate="animate__zoomInRight" data-animatedelay="1">
+					<h2 class="skills-title">Skills</h2>
+				</div>
+				<div class="items-list">
+					<div class="item animate__animated" data-animate="animate__bounceInDown" data-animatedelay="1.5">
+						<i class="fab fa-html5"></i>
+						<span>HTML5</span>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInDown" data-animatedelay="2">
+						<i class="fab fa-css3-alt"></i>
+						<span>CSS3</span>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInDown" data-animatedelay="2.5">
+						<i class="fab fa-js"></i>
+						<span>JavaScript</span>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInDown" data-animatedelay="3">
+						<i class="fab fa-php"></i>
+						<span>PHP</span>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInDown" data-animatedelay="3.5">
+						<i class="fas fa-database"></i>
+						<span>MySQL</span>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInDown" data-animatedelay="4">
+						<i class="fab fa-bootstrap"></i>
+						<span>Bootstrap</span>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInRight" data-animatedelay="4.5">
+						<i class="fas fa-asterisk"></i>
+						<span>jQuery</span>
+					</div>				
+				</div>
+			</div>	
+		</section>
+		<!-- Focus -->
+		<section class="focus">
+			<div class="icon-container animate__animated" data-animate="animate__jackInTheBox" data-animatedelay="0.5">
+				<i class="fas fa-handshake"></i>
+			</div>
+			<div class="content">
+				<div class="heading animate__animated" data-animate="animate__zoomInLeft" data-animatedelay="1">
+					<h2 class="focus-title">Focus On</h2>
+				</div>
+				<div class="items-list">
+					<div class="item animate__animated" data-animate="animate__bounceInDown" data-animatedelay="1.5">
+						<i class="fas fa-laptop-code"></i>
+						<span>Freelancing</span>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInLeft" data-animatedelay="2">
+						<i class="fas fa-laptop-code"></i>
+						<span>Front-End Development</span>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInRight" data-animatedelay="2.5">
+						<i class="fas fa-laptop-code"></i>
+						<span>Application Development</span>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInLeft" data-animatedelay="3">
+						<i class="fas fa-laptop-code"></i>
+						<span>Maintenance</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Contact -->
+		<section class="contact">
+			<div class="icon-container animate__animated" data-animate="animate__jackInTheBox" data-animatedelay="0.5">
+				<i class="fas fa-tty"></i>
+			</div>
+			<div class="content">
+				<div class="heading animate__animated" data-animate="animate__zoomInRight" data-animatedelay="1">
+					<h2 class="contact-title">Reach Me</h2>
+				</div>
+				<div class="items-list">
+					<div class="item animate__animated" data-animate="animate__bounceInDown" data-animatedelay="1.5">
+						<i class="fab fa-facebook"></i>
+						<a href="#">Facebook</a>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInLeft" data-animatedelay="2">
+						<i class="fab fa-instagram"></i>
+						<a href="#">Instagram</a>
+					</div>
+					<div class="item animate__animated" data-animate="animate__bounceInRight" data-animatedelay="2.5">
+						<i class="fab fa-github"></i>
+						<a href="#">Github</a>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 
-	<div class="element-circle-1"></div>
-	<div class="element-circle-2"></div>
-	<div class="element-circle-3"></div>
-
-	<script type="text/javascript" src="./scripts/main.js"></script>
+<!-- Custom Script -->
+<script type="text/javascript" src="./scripts/main.js"></script>
 </body>
 </html>
