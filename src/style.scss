@@ -20,6 +20,8 @@ body {
 
 /*<<<<< No Script Notice >>>>>*/
 .no-script-notice {
+	position: fixed;
+	inset: 0;
 	width: 100vw;
 	height: 100vh;
 	z-index: 10000;
@@ -79,8 +81,8 @@ main {
 		$sectionDelay: 0s;		
 
 		.icon-container {
-			/*animation: jackInTheBox 1s ease $sectionDelay;*/
-			/*$sectionDelay: $sectionDelay + 0.3s;*/
+			display: flex;
+			justify-content: center;
 		}
 
 		.content {
@@ -97,6 +99,7 @@ main {
 
 			.icon-container	img {				
 					position: relative;
+					width: 90%;
 					max-width: 24rem;
 					aspect-ratio: 1;
 					border-radius: 100%;
@@ -170,11 +173,11 @@ main {
 			.icon-container {
 				i {
 					position: relative;
-					max-width: 25rem;
+					max-width: 24rem;
 					aspect-ratio: 1;
 					border-radius: 100%;
 					color: $light;
-					font-size: 20rem;
+					font-size: 19rem;
 					padding: 1rem;
 					border: 1px solid $light;
 				}
@@ -243,11 +246,11 @@ main {
 			.icon-container {
 				i {
 					position: relative;
-					min-width: 23rem;
+					min-width: 21rem;
 					aspect-ratio: 1;
 					border-radius: 100%;
 					color: $light;
-					font-size: 15rem;
+					font-size: 14rem;
 					padding: 0rem;
 					border: 1px solid $light;
 					transform: rotateZ(-30deg);				
@@ -322,11 +325,11 @@ main {
 			.icon-container {
 				i {
 					position: relative;
-					max-width: 25rem;
+					max-width: 22rem;
 					aspect-ratio: 1;
 					border-radius: 100%;
 					color: $dark-blue;
-					font-size: 15rem;
+					font-size: 12rem;
 					padding: 4rem;
 					border: 1px solid $light;
 					transform: rotateZ(-15deg);
@@ -457,6 +460,21 @@ main {
 				padding: 2rem 1rem;
 				display: flex;
 				flex-direction: column;
+				.content {	
+					font-size: 1.5rem;
+				}
+			}
+
+			&.about {
+				.content {
+							font-size: 1.5rem;
+					.items-list {
+						.item {	
+							font-size: 1.5rem;
+							text-align: center;
+						}
+					}
+				}
 			}
 		}
 	}

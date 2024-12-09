@@ -205,6 +205,8 @@ body {
 
 /*<<<<< No Script Notice >>>>>*/
 .no-script-notice {
+  position: fixed;
+  inset: 0;
   width: 100vw;
   height: 100vh;
   z-index: 10000;
@@ -256,8 +258,8 @@ main section {
   background-color: #000;
 }
 main section .icon-container {
-  /*animation: jackInTheBox 1s ease $sectionDelay;*/
-  /*$sectionDelay: $sectionDelay + 0.3s;*/
+  display: flex;
+  justify-content: center;
 }
 main section .content {
   display: block;
@@ -272,6 +274,7 @@ main section.about {
 }
 main section.about .icon-container img {
   position: relative;
+  width: 90%;
   max-width: 24rem;
   aspect-ratio: 1;
   border-radius: 100%;
@@ -332,11 +335,11 @@ main section.skills {
 }
 main section.skills .icon-container i {
   position: relative;
-  max-width: 25rem;
+  max-width: 24rem;
   aspect-ratio: 1;
   border-radius: 100%;
   color: #fff;
-  font-size: 20rem;
+  font-size: 19rem;
   padding: 1rem;
   border: 1px solid #fff;
 }
@@ -394,11 +397,11 @@ main section.focus {
 }
 main section.focus .icon-container i {
   position: relative;
-  min-width: 23rem;
+  min-width: 21rem;
   aspect-ratio: 1;
   border-radius: 100%;
   color: #fff;
-  font-size: 15rem;
+  font-size: 14rem;
   padding: 0rem;
   border: 1px solid #fff;
   transform: rotateZ(-30deg);
@@ -461,11 +464,11 @@ main section.contact {
 }
 main section.contact .icon-container i {
   position: relative;
-  max-width: 25rem;
+  max-width: 22rem;
   aspect-ratio: 1;
   border-radius: 100%;
   color: #7E57C2;
-  font-size: 15rem;
+  font-size: 12rem;
   padding: 4rem;
   border: 1px solid #fff;
   transform: rotateZ(-15deg);
@@ -571,5 +574,15 @@ main section.contact .content .items-list .item a {
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
+  }
+  main section.about .content, main section.skills .content, main section.focus .content, main section.contact .content {
+    font-size: 1.5rem;
+  }
+  main section.about .content {
+    font-size: 1.5rem;
+  }
+  main section.about .content .items-list .item {
+    font-size: 1.5rem;
+    text-align: center;
   }
 }
