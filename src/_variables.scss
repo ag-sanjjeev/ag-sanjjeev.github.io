@@ -1,21 +1,19 @@
-/* Variables */
+// Fonts Import
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-$white: #fff;
-$black: #000;
+// Font Placeholders
+%font-opensans {
+	font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
-$transperantWhite1: rgba(255, 255, 255, 0.5);
-$transperantWhite2: rgba(255, 255, 255, 0.2);
+%font-fontawesome {
+	font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-style: normal;
+}
 
-$lightBlue1: #80deea;
-$lightBlue2: #03a9f4;
-
-$lightYellow: #FFE0B2;
-
-/* Border Radius */
-$borderRadius1: 1rem;
-
-/* Box Shadows */
-$boxShadow1: 15px 25px 20px rgba(0,0,0,0.1);
-
-/* Font Variables */
-$font: 'Poppins', san-serif;
+$font1: 'Calibri', sans-serif;
